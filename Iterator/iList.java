@@ -1,3 +1,5 @@
+package Iterator;
+
 public interface iList<T> {
     void add(T data);
     void removeByIndex(int index);

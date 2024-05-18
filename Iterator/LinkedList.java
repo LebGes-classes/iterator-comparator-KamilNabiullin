@@ -1,10 +1,12 @@
+package Iterator;
+
 import java.util.NoSuchElementException;
 
 public class LinkedList<T> extends List<T>{
     Element end;
 
     public Iterator<T> iterator() {
-        return new Iterator<>(this);
+        return new Iterator<T>(this);
     }
     private class Iterator<T> implements java.util.Iterator<T> {
 

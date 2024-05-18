@@ -1,3 +1,5 @@
+package Comparator;
+
 public class Storage {
     private int id;
 
